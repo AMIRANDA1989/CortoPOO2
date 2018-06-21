@@ -31,6 +31,17 @@ public class Persona {
         this.estado = estado;
     }
 
+    public Persona(String numAfiliacion, String nombre, String apellido, int edad, String profesion, int estado) {
+        this.numAfiliacion = numAfiliacion;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.profesion = profesion;
+        this.estado = estado;
+    }
+
+    
+    
     public int getId() {
         return id;
     }

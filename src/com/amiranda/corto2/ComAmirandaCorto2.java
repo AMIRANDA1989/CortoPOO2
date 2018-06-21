@@ -6,6 +6,7 @@
 package com.amiranda.corto2;
 
 import com.amiranda.conexion.Conexion;
+import com.amiranda.vista.Consulta;
 
 /**
  *
@@ -18,7 +19,8 @@ public class ComAmirandaCorto2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Conexion con = new Conexion();
+        Consulta con = new Consulta();
+        con.setVisible(true);
     }
     
 }
